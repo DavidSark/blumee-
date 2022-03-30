@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400&display=swap');
 
 
 
@@ -21,3 +22,5 @@
 /*Import de la feuille de style pour le pied de page*/
 @import url('layout/footer.css');
 
+/*Import de la feuille de style pour le responsive*/
+@import url('layout/responsive.css');
