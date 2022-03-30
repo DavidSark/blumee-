@@ -367,7 +367,7 @@
 
 .align__form{
     display: flex;
-     justify-content: center;
+    justify-content: center;
 }
 .card__form{
     display: flex;
@@ -491,24 +491,8 @@ form{
     margin-bottom: 16px;
     margin-right: 0px;
     margin-left: 0px;
-    box-shadow: 0px 0px 10px rgb(153, 151, 151);;
-
+    box-shadow: 0px 0px 10px rgb(153, 151, 151);
 }
-
-  /*input[type=text], textarea, input[type=email] {
-    width: 100%;
-    padding: 12px;
-    font-family: var(--Raleway);
-    border: 1px solid #ccc;
-    background-color: #F3F3F3;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    margin-right: 0px;
-    margin-left: 0px;
-    box-shadow: 0px 0px 10px grey;
-  }*/
 
 label{margin-right: 0px;
     margin-left: 0px;
@@ -520,6 +504,12 @@ label{margin-right: 0px;
 
 .btn__send__img{
       width: 60px;
+      padding-top: 10px;
+  }
+
+  .condition{
+      font-family: var(--Raleway);
+      color: #404040;
   }
 
 .container {
@@ -567,13 +557,10 @@ button{
     visibility: hidden;
   }
 
-
   .under__section__00{
       padding-top: 60px;
       padding-left: 150px;
   }
-
-
 
 .element03{
     position: absolute;
@@ -586,52 +573,6 @@ button{
     top: 0;
     left: 0;
 }
-
-
-
-
-
-
-
-
-/*Mockup de l'accueil*/
-
-/*.bloc__mockup{
-    display: flex;
-    justify-content: center;
-}
-.mockup__home{
-    width: 300px;
-}
-
-.mockup__home2{
-    width: 300px;
-}
-
-.bloc__mockup__gauche {
-    position: absolute;
-    z-index: 2;
-    right: 300px;
-    top: 220px;
-}
-
-.bloc__mockup__droit {
-    position: absolute;
-    z-index: 1;
-    right: 170px;
-    top: 160px;
-}
-*/
-
-
-
-
-
-
-
-
-
-/*Test pour la grille des fonctionnalités*/
 
 .grid__feature{
     display: grid;
@@ -708,3 +649,54 @@ button{
         display: flex;
         justify-content: center;
  }
+
+ /*Css newsletter*/
+
+
+ .bloc__newsletter{
+ 
+ }
+
+ .bloc__title__newsletter{
+     text-align: center;
+     padding-top: 50px;
+ }
+
+ .title__newsletter{
+    font-family: var(--Mulish);
+    font-size: 40px;
+    color: #4A4A4A;
+    font-weight: lighter;
+    text-transform: uppercase;
+    }
+
+.bloc__newsletter{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+input[type="text"] {
+    padding: 12px;
+    font-family: var(--Raleway);
+    background-color: #F3F3F3;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 5px rgb(153, 151, 151);
+}
+
+input[type="submit"] {
+    padding: 12px;
+    font-family: var(--Raleway);
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: var(--dark-black);
+    color: var(--white);
+    margin-left: -50px;
+    width: 100px;
+    box-shadow: 0px 0px 5px rgb(153, 151, 151);
+    border: none;
+}
+
+
