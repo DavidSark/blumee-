@@ -387,7 +387,10 @@
 }
 
 .center__title__about{
-    text-align: center;
+    text-align: left;
+    padding-left: 50px;
+    position: relative;
+    z-index: 1;
 }
 
 .title__about{
@@ -400,6 +403,9 @@
 .section__about{
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
+    position: relative;
+    z-index: 0;
+    margin-top: -7px;
 }
 
 .grid__portrait{
@@ -651,11 +657,6 @@ button{
  }
 
  /*Css newsletter*/
-
-
- .bloc__newsletter{
- 
- }
 
  .bloc__title__newsletter{
      text-align: center;

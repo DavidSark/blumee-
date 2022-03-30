@@ -24,3 +24,6 @@
 
 /*Import de la feuille de style pour le responsive*/
 @import url('layout/responsive.css');
+
+/*Import de la feuille de style pour la page 404*/
+@import url('layout/unfound.css');
