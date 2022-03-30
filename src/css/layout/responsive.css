@@ -53,19 +53,20 @@
         width: 70px!important;
     }
 
+    /*Responsive fonctionnalités*/
     .mockup__center{
         padding-right: 145px!important;
     }
 
     .grid__text__right{
-        margin-right: 150px;
+        margin-right: 150px!important;
     }
 
     .grid__text__left{
-    margin-left: 150px; 
+    margin-left: 150px!important; 
     }
 
     .section__03{
-        margin-top: 50px;
+        margin-top: 50px!important;
     }
 }
