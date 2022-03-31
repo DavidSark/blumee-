@@ -196,6 +196,7 @@
     font-size: 25px;
     color: #5C5C5C;
     padding-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .grid__elements{
@@ -543,8 +544,6 @@ textarea{
       text-transform: uppercase;
       letter-spacing: 2px;
   }
-
-
 
 button{
     border: none;
